@@ -1,3 +1,11 @@
+/**
+ * The method findSimpleGene to have three parameters, one for the DNA string, 
+ * one for the start codon and one for the stop codon.
+ *
+ * @camillecochener
+ * @20 septembre 2019
+ */
+
 public class Part2 {
     String findSimpleGene(String dna, int startIndex, int stopIndex) {
        String gene = "";
