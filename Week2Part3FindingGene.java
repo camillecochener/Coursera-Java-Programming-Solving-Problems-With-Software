@@ -1,10 +1,12 @@
 /**
+ * This code has been created to answer the quizz of the week 2 about Strings in Java.
  * The method named twoOccurrences that has two String parameters named stringa and stringb. This method returns true if stringa appears at least twice in stringb, otherwise it returns false. 
  *
- * @camillecochener
- * @20 septembre 2019
+ * @author camillecochener
+ * @date 20 septembre 2019
  */
-public class Part3 {
+
+public class Week2Part3FindingGene {
     boolean twoOccurrences(String stringa, String stringb){
         boolean res = false;
         int findString = stringb.indexOf(stringa);
