@@ -1,14 +1,17 @@
-import edu.duke.URLResource;
 /**
+ * This code has been created to answer the quizz of the week 2 about Strings in Java.
+ * 
  * Program that reads the lines from the file at this URL location, 
  * http://www.dukelearntoprogram.com/course2/data/manylinks.html, 
  * and prints each URL on the page that is a link to youtube.com.
  *
- * @camillecochener
- * @v20 septembre 2019
+ * @author camillecochener
+ * @date 20 septembre 2019
  */
 
-public class Part4 {
+import edu.duke.URLResource;
+
+public class Week2Part4YoutubeURL {
     
     public void findYoutubeURL(String url) {
         URLResource ur = new URLResource(url);
