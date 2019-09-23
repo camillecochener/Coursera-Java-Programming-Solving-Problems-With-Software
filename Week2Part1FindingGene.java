@@ -12,7 +12,7 @@
  * @date 20 septembre 2019
  */
 
-public class Week2FindingGene {
+public class Week2Part1FindingGene {
     String findSimpleGene(String dna) {
        String gene = "";
        int startIndex = dna.indexOf("ATG");
