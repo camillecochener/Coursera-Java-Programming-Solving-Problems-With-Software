@@ -1,13 +1,15 @@
 
 /**
+ * This code has been created to answer the quizz of the week 2 about Strings in Java.
+ *
  * The method findSimpleGene to have three parameters, one for the DNA string, 
  * one for the start codon and one for the stop codon.
  *
- * @camillecochener
- * @20 septembre 2019
+ * @author camillecochener
+ * @date 20 septembre 2019
  */
 
-public class Part2 {
+public class Week2Part2FindingGene {
     String findSimpleGene(String dna, int startIndex, int stopIndex) {
        String gene = "";
        if (startIndex == -1){
