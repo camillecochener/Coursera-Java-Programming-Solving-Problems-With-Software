@@ -1,6 +1,6 @@
 
 /**
- * This class contains methods that allows to describe a CSV files.
+ * This code has been created to answer the quiz of the week 3 course about CSV Files and Basic Statistics in Java.
  *
  * @author camillecochener
  * @date 21 septembre 2019
