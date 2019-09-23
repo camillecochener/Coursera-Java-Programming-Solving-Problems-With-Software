@@ -2,8 +2,8 @@
 /**
  * This class contains methods that allows to describe a CSV files.
  *
- * @camillecochener
- * @21 septembre 2019
+ * @author camillecochener
+ * @date 21 septembre 2019
  */
 
 import edu.duke.*;
