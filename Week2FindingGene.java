@@ -1,16 +1,18 @@
 
 /**
- * the method findSimpleGene that has one String parameter dna, representing a string of DNA. This method does the following:
+ * This code has been created to answer the quizz of the week 2 about Strings in Java.
+ * 
+ * The method findSimpleGene that has one String parameter dna, representing a string of DNA. This method does the following:
  *
  * - Finds the index position of the start codon “ATG”. If there is no “ATG”, return the empty string.
  * - Finds the index position of the first stop codon “TAA” appearing after the “ATG” that was found. If there is no such “TAA”, return the empty string.
  * - If the length of the substring between the “ATG” and “TAA” is a multiple of 3, then return the substring that starts with that “ATG” and ends with that “TAA”.
  *
- * @camillecochener
- * @20 septembre 2019
+ * @author camillecochener
+ * @date 20 septembre 2019
  */
 
-public class Part1 {
+public class Week2FindingGene {
     String findSimpleGene(String dna) {
        String gene = "";
        int startIndex = dna.indexOf("ATG");
